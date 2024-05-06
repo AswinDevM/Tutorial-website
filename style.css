@@ -52,6 +52,20 @@ section {
     flex-wrap: wrap;
 }
 
+/* Add different background colors to each tutorial */
+.tutorial:nth-child(1) {
+    background-color: #ff9999; /* Light red */
+}
+
+.tutorial:nth-child(2) {
+    background-color: #99ccff; /* Light blue */
+}
+
+.tutorial:nth-child(3) {
+    background-color: #99ff99; /* Light green */
+}
+
+
 .tutorial {
     background-color: #f4f4f4;
     border-radius: 5px;
